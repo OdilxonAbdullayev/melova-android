@@ -17,6 +17,9 @@ import kotlinx.coroutines.sync.withPermit
 import kotlinx.coroutines.launch
 import uz.melova.app.R
 import uz.melova.app.data.MelovaApi
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+
 
 class MelovaViewModel(application:Application):AndroidViewModel(application) {
     val api=MelovaApi(application)
